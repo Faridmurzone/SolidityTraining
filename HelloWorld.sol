@@ -1,15 +1,12 @@
-pragma solidity ^0.4.0;
+pragma solidity ^ 0.6 .2;
 
-contract HelloWorldContract {
-    string word = 'Hello World';
-    
-    function getWord() constant returns(string) {
-        return word;
+contract HelloWorld {
+    string saySomething;
+    constructor() public {
+        saySomething = "Hello World!";
     }
-    
-    function setWord(string newWord) returns(string) {
-        word = newWord;
-        return word;
+
+    function sayHello() public view returns(string memory itSays) {
+        return saySomething;
     }
-    
 }
