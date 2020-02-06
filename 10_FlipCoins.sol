@@ -7,7 +7,7 @@ contract FlipCoins {
   event Status(string _msg, address user, uint amount);
 
   constructor() payable public {
-
+    owner = msg.sender;
   }
 
   modifier onlyOwner() {
