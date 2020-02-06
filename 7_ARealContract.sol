@@ -1,8 +1,9 @@
 pragma solidity ^0.6.2;
 
 contract PayCheck {
-  address employees = [
-
+  address[] employees = [
+    0xdD870fA1b7C4700F2BD7f44238821C26f7392148,
+    0x583031D1113aD414F02576BD6afaBfb302140225
   ]; // Fake addresses
   uint totalReceived = 0;
   mapping (address => uint) withdrawAmounts;
