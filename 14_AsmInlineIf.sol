@@ -1,4 +1,5 @@
 pragma solidity ^0.6.2;
+// Convert if example to assembly with switch-case
 
 contract AsmIf {
   function nativeConditional(uint _v) public returns(uint _r) {
