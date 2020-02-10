@@ -1,7 +1,7 @@
 pragma solidity ^0.6.2;
 
 import "./20b_ImportsAndLibraries.sol"; // Importing a demo library
-// import "https://github.com/Faridmurzone/SolidityTraining/blob/master/20b_ImportsAndLibraries.sol"; // Another option to import
+// import "github.com/Faridmurzone/SolidityTraining/blob/master/20b_ImportsAndLibraries.sol"; // Another option to import
 
 contract TestLibrary {
   using IntExtended for uint; // Using it
